@@ -32,7 +32,7 @@
   []
   (seq (sieve*)))
 
-(defn prime-factors*
+(defn prime-factorization
   "Experimental - returns a seq of the prime factors of x in an
   ascending order."
   [^long x]
@@ -57,5 +57,5 @@
   "Experimental - returns a map of the prime factors of x, whose
   key/value pairs express x in powers. x equals the product of the
   key to the value."
-  (->> (prime-factors* x)
+  (->> (prime-factorization x)
        frequencies))
