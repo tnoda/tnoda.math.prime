@@ -2,6 +2,7 @@
 
 A Clojure library that implements the sieve of Eratosthenes.
 
++ https://clojars.org/org.clojars.tnoda/math.prime
 + https://github.com/tnoda/math.prime
 
 
