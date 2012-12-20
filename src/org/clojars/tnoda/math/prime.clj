@@ -33,8 +33,8 @@
   (seq (sieve*)))
 
 (defn prime-factorization
-  "Experimental - returns a seq of the prime factors of x in an
-  ascending order."
+  "Experimental - returns a seq of prime divisors in an ascending
+  order, which when multiplied together equal x."
   [^long x]
   (let [ps (or *prime-array* (sieve*))
         fs (long-array 30)]
