@@ -33,7 +33,8 @@
   (seq (sieve*)))
 
 (defn prime-factors*
-  "Returns a seq of the prime factors of x in an ascending order."
+  "Experimental - returns a seq of the prime factors of x in an
+  ascending order."
   [^long x]
   (let [ps (or *prime-array* (sieve*))
         fs (long-array 30)]
@@ -53,7 +54,8 @@
 
 (defn prime-factors
   [^long x]
-  "Returns a map of the prime factors of x, whose key/value pairs express
-   x in powers. x equals the product of the key to the value."
+  "Experimental - returns a map of the prime factors of x, whose
+  key/value pairs express x in powers. x equals the product of the
+  key to the value."
   (->> (prime-factors* x)
        frequencies))
