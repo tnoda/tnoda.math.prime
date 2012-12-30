@@ -10,7 +10,7 @@ A Clojure library that implements the sieve of Eratosthenes.
 
 Leiningen dependency information:
 
-    [org.clojars.tnoda/tnoda.math.prime "0.1.0"]
+    [org.clojars.tnoda/tnoda.math.prime "0.2.1"]
 
 
 ## Example
