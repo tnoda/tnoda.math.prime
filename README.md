@@ -30,9 +30,6 @@ Leiningen dependency information:
     
     user> (binding [*sieve-size* 10000000] (count (sieve)))
     664579
-    
-    user> (prime-factors 36)
-    {2 2, 3 2}
 
 
 ## License
