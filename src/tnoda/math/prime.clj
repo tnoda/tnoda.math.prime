@@ -1,4 +1,4 @@
-(ns org.clojars.tnoda.math.prime)
+(ns tnoda.math.prime)
 
 (def ^:dynamic *sieve-size* 1000000)
 

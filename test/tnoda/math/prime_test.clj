@@ -1,6 +1,6 @@
-(ns .org.clojars.tnoda.math.prime-test
+(ns tnoda.math.prime-test
   (:use clojure.test
-        org.clojars.tnoda.math.prime))
+        tnoda.math.prime))
 
 (deftest test-math-prime
   (testing "sieve"

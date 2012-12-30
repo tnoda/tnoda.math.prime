@@ -2,20 +2,20 @@
 
 A Clojure library that implements the sieve of Eratosthenes.
 
-+ https://clojars.org/org.clojars.tnoda/math.prime
-+ https://github.com/tnoda/math.prime
++ https://clojars.org/org.clojars.tnoda/tnoda.math.prime
++ https://github.com/tnoda/tnoda.math.prime
 
 
 ## Dependency Information
 
 Leiningen dependency information:
 
-    [org.clojars.tnoda/math.prime "0.1.0"]
+    [org.clojars.tnoda/tnoda.math.prime "0.1.0"]
 
 
 ## Example
 
-    user> (use 'org.clojars.tnoda.math.prime)
+    user> (use 'tnoda.math.prime)
     nil
     
     user> (time (sieve))
