@@ -1,4 +1,4 @@
-# math.prime
+# tnoda.math.prime
 
 A Clojure library that implements the sieve of Eratosthenes.
 
